@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #dad{
+            display: flex; /*flex 水平排序*/
+            justify-content: center; /*x*/
+            align-items: center; /*y*/
+            height: 200px;
+            background: #eee;
+        }
+        .son{
+            width: 50px;
+            height: 50px;
+            background: orange;
+            margin: 10px;
+        }
+        .either{
+            background: red;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="dad"> <!--div#dad  # = select id--> 
+        <!--div.son*3  . = select class-->
+        <div class="son either"></div> 
+        <div class="son"></div>
+        <div class="son"></div>
+    </div>
+</body>
+</html>

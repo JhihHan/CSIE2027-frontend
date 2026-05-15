@@ -1,4 +1,4 @@
-## 遊戲規則 — U-CSIE2027 SnackGame
+## 遊戲規則 — SnackGame
 
 核心設定
 - 棋盤: 20 × 20 格

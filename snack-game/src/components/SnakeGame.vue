@@ -91,7 +91,6 @@ const playStateLabel = computed(() => {
   }
 })
 let timerId: number | null = null
-let tickInterval = tickIntervalDefault
 let foodTimer: number | null = null
 const foodLifetime = 5000 // ms before food disappears and respawns
 
